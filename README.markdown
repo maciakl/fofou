@@ -15,16 +15,14 @@ It's mostly a port of [FruitShow PHP forum](http://sourceforge.net/projects/frui
 Where can I see it in action?
 =============================
 
-Forums for my Sumatra PDF viewer are powered by Fofou:
-http://blog.kowalczyk.info/forum_sumatra/
+Forums for [Sumatra PDF viewer are powered by Fofou](http://blog.kowalczyk.info/forum_sumatra/)
 
 Installation.
 =============
 
 Fofou runs on Google App Engine infrastructure. You need to get App Engine
-account and upload fofou (see
-http://code.google.com/appengine/docs/gettingstarted/uploading.html for
-details).
+account and upload fofou (see [AppEngine Documentation](http://code.google.com/appengine/docs/gettingstarted/uploading.html) 
+for details).
 
 Once installed, you can create one or more forums through web interface.
 
@@ -42,8 +40,8 @@ Design philosophy.
 
 You'll quickly see that Fofou differs in many ways from most common forum
 software. There are good reasons for the differences and Joel Spolsky describes
-those reason in great detail:
-http://www.joelonsoftware.com/articles/BuildingCommunitieswithSo.html
+those reasons [in great detail](http://www.joelonsoftware.com/articles/BuildingCommunitieswithSo.html)
+
 
 License.
 ========
@@ -57,4 +55,4 @@ Contributing.
 =============
 
 Fofou is open-source so if you want to improve the code, contribute more skins
-etc., fork http://github.com/kjk/fofou/tree/master
+etc., fork http://github.com/kjk/fofou/tree/master and create pull request.
