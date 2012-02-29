@@ -1,14 +1,16 @@
 Overview.
-=========
+===
 
-For more info: http://blog.kowalczyk.info/software/fofou/
+This is a fork of Krzystof Kowalczyk's FoFou forum software modified for my
+own personal needs.
+
+For more info on the original project see: http://blog.kowalczyk.info/software/fofou/
 
 Fofou (Forums For You) is a simple forum software inspired by
 Joel On Software forum software (http://discuss.joelonsoftware.com/?joel).
 
-It's mostly a port of FruitShow PHP forum
-(http://sourceforge.net/projects/fruitshow) to Google App Engine 
-(http://code.google.com/appengine/).
+It's mostly a port of [FruitShow PHP forum](http://sourceforge.net/projects/fruitshow) to 
+[Google App Engine](http://code.google.com/appengine/).
 
 Where can I see it in action?
 =============================
@@ -55,5 +57,4 @@ Contributing.
 =============
 
 Fofou is open-source so if you want to improve the code, contribute more skins
-etc., fork http://github.com/kjk/fofou/tree/master, make your changes and let me
-know. If the changes are good, I'll pull them into my repo.
+etc., fork http://github.com/kjk/fofou/tree/master
