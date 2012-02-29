@@ -1,5 +1,5 @@
-application: fofou
-version: 1
+application: terminally-incoherent-forum
+version: 2
 runtime: python
 api_version: 1
 

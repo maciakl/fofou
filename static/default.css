@@ -8,13 +8,13 @@
 
 body {
 	background-color:	white;
-	color:				black;
-	padding:			0; /* needed for Opera */
+	color:			black;
+	padding:		0; /* needed for Opera */
 	font-family:		Tahoma,Arial,Helvetica,sans-serif;    
-	font-size:			12px;
-	margin-left:		1em;
-	margin-top:			1em;
-	margin-right:		1em;	
+	font-size:		12px;
+	margin-left:		100px;
+	margin-top:		1em;
+	margin-right:		50px;	
 	margin-bottom:		0em;
 }
 
@@ -38,7 +38,7 @@ a:visited {	color: purple; }
 }
 
 .header h1 {
-	color: #189337;
+	color: orange; <!-- #189337; -->
 	font: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
 	font-size: 32px;
 	font-weight: bold;
@@ -47,7 +47,7 @@ a:visited {	color: purple; }
 }
 
 .header p {
-	color: #AAAAAA;
+	color: orange;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;	
 	font-size: 90%;
 	font-weight: bold;
@@ -58,7 +58,7 @@ a:visited {	color: purple; }
 }
 
 .header a {
-	color: #101060 !important;
+	color: orange !important;
 	text-decoration: none;
 }
 
@@ -246,10 +246,10 @@ div.posts div.info {
  ******************************************************************************/
 
 h2 {
-	font-size:			18px;
+	font-size:		18px;
 	font-family:		Tahoma,Arial,Helvetica,sans-serif;
 	font-weight:		bold;
-	color:				#189337;
+	color:			orange;
 	width:				100%;
 	margin-top:			0px;
 }
@@ -274,7 +274,7 @@ div.buttons a {
 	border-right:		1px solid #333;
 	border-bottom:		1px solid #333;
 	background-color:	#DDD;
-	color:				rgb(0,0,180);
+	color:			rgb(0,0,180);
 	padding:			2px 4px;
 	margin-top:			0ex;	
 	margin-bottom:		0ex;
@@ -295,7 +295,7 @@ div.searchBox {
 	font-size:			11px;
 	font-weight:		bold;
 	text-decoration:	none; 
-	background-color:	#189337; 
+	background-color:	orange; 
 	color:				#FFFFFF; 
 	font-family:		Tahoma,Arial,Helvetica,sans-serif;
 	padding:			3px 1px 2px 5px;
