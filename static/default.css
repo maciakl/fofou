@@ -19,8 +19,9 @@ body {
 }
 
 form { margin: 0px; padding: 0px; }
-a:link { color: rgb(0,0,180); }
-a:visited {	color: purple; }
+a:link { color: orange; }
+a:visited {	color: orange; }
+a:hover { color: red; }
 
 /* To hide things from IE */
 .noIE { _display: none; }
@@ -181,8 +182,8 @@ div.topics {
 }
 
 div.topics span { color: rgb(170, 170, 170); }
-div.topics a { text-decoration: none; }
-div.topics a:hover { text-decoration: underline; }
+	div.topics a { text-decoration: none; font-weight: bold; color: darkOrange; }
+div.topics a:hover { text-decoration: underline; font-weight: bold; color: red; }
 div.topics a.deleted { text-decoration: line-through; }
 div.topics a.deleted:hover { text-decoration: line-through underline; }
 div.topics .dateline {
@@ -274,14 +275,15 @@ div.buttons a {
 	border-right:		1px solid #333;
 	border-bottom:		1px solid #333;
 	background-color:	#DDD;
-	color:			rgb(0,0,180);
+	color:			orange;
 	padding:			2px 4px;
 	margin-top:			0ex;	
 	margin-bottom:		0ex;
 	margin-right:		1ex;
 	margin-left:		0ex;
 }
-div.buttons a:visited { color: rgb(0,0,180); }
+div.buttons a:visited { color: darkOrange; }
+div.buttons a:hover { color: red; }
 div.buttons a img { vertical-align: text-top; }
 
 
