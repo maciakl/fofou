@@ -7,7 +7,7 @@
 */
 
 body {
-	background-color:	white;
+	background-color:	#FAFAFA;
 	color:			black;
 	padding:		0; /* needed for Opera */
 	font-family:		Tahoma,Arial,Helvetica,sans-serif;    
@@ -19,9 +19,13 @@ body {
 }
 
 form { margin: 0px; padding: 0px; }
-a:link { color: orange; }
-a:visited {	color: orange; }
-a:hover { color: red; }
+a:link { color: #3366BB; }
+a:visited {	color: #3366BB; }
+a:hover { color: #CD3700; }
+
+h3.head {
+	color: darkOrange;
+}
 
 /* To hide things from IE */
 .noIE { _display: none; }
@@ -39,7 +43,7 @@ a:hover { color: red; }
 }
 
 .header h1 {
-	color: orange; <!-- #189337; -->
+	color: #CD3700; <!-- #189337; -->
 	font: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
 	font-size: 32px;
 	font-weight: bold;
@@ -47,8 +51,9 @@ a:hover { color: red; }
 	margin: 0;
 }
 
+
 .header p {
-	color: orange;
+	color: #CD3700;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;	
 	font-size: 90%;
 	font-weight: bold;
@@ -59,7 +64,7 @@ a:hover { color: red; }
 }
 
 .header a {
-	color: orange !important;
+	color: #CD3700 !important;
 	text-decoration: none;
 }
 
@@ -182,8 +187,9 @@ div.topics {
 }
 
 div.topics span { color: rgb(170, 170, 170); }
-	div.topics a { text-decoration: none; font-weight: bold; color: darkOrange; }
-div.topics a:hover { text-decoration: underline; font-weight: bold; color: red; }
+div.topics a { text-decoration: none; font-weight: bold; color: #3366BB; }
+div.topics a:visited { color: #800080; }
+div.topics a:hover { text-decoration: underline; font-weight: bold; color: #CD3700; }
 div.topics a.deleted { text-decoration: line-through; }
 div.topics a.deleted:hover { text-decoration: line-through underline; }
 div.topics .dateline {
@@ -250,7 +256,7 @@ h2 {
 	font-size:		18px;
 	font-family:		Tahoma,Arial,Helvetica,sans-serif;
 	font-weight:		bold;
-	color:			orange;
+	color:			#CD3700;
 	width:				100%;
 	margin-top:			0px;
 }
@@ -275,15 +281,15 @@ div.buttons a {
 	border-right:		1px solid #333;
 	border-bottom:		1px solid #333;
 	background-color:	#DDD;
-	color:			orange;
+	color:			#CD3700;
 	padding:			2px 4px;
 	margin-top:			0ex;	
 	margin-bottom:		0ex;
 	margin-right:		1ex;
 	margin-left:		0ex;
 }
-div.buttons a:visited { color: darkOrange; }
-div.buttons a:hover { color: red; }
+div.buttons a:visited { color: #CD3700; }
+div.buttons a:hover { color: blue; }
 div.buttons a img { vertical-align: text-top; }
 
 
