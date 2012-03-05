@@ -4,10 +4,15 @@ Overview.
 This is a fork of Krzystof Kowalczyk's FoFou forum software modified for my
 own personal needs.
 
+This code can be see live at [Terminally Incoherent Forums](http://forum.terminally-incoherent.com).
+
+Original Project Information
+===
+
 For more info on the original project see: http://blog.kowalczyk.info/software/fofou/
 
 Fofou (Forums For You) is a simple forum software inspired by
-Joel On Software forum software (http://discuss.joelonsoftware.com/?joel).
+Joel On Software [forum software](http://discuss.joelonsoftware.com/?joel).
 
 It's mostly a port of [FruitShow PHP forum](http://sourceforge.net/projects/fruitshow) to 
 [Google App Engine](http://code.google.com/appengine/).
