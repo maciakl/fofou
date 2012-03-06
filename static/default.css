@@ -208,7 +208,8 @@ div.topics .date {
 div.posts {
 	font-family:		Georgia,'Times New Roman',Times,serif;
 	font-weight:		normal;
-	margin-left:		7px; 
+	margin-left:		7px;
+
 }
 
 div.posts div.post {
@@ -223,9 +224,11 @@ div.posts div.deleted {
 
 div.posts div.signature {
 	padding-top: 1em;
+	padding-bottom: 5px;
 	text-align: right;
 	font-style: italic;
 	width: 30em;
+	border-bottom: 1px solid lightGray;
 }
 
 div.posts div.signature img {
@@ -240,6 +243,7 @@ div.posts div.info {
 	font-size:			10px;
 	float: left;
 }
+
 
 
 /*******************************************************************************
