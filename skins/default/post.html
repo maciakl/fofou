@@ -96,6 +96,17 @@
 
 		</form>
 	</div>
+		{% if prevTopicId %}
+		<br><br>
+		<script>
+			$(document).ready(function(){
+				$("#topic_content_dynamic").load("topic?id={{ prevTopicId }} .posts", function(){$("#topic_content_dynamic .buttons").hide();});
+			 });
+			
+		</script>
+		<div id="topic_content_dynamic">Loading post data...</div>
+		{% endif %}	
+
 
 	</td>
 </tr>
