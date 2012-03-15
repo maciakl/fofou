@@ -1,16 +1,22 @@
 /**
 * @package		CrazyOnTap
 * @author		Wayne Venables <wayne@codaris.com>
-* @copyright	2006 Wayne Venables
+* @copyright		2006 Wayne Venables
 * @license 		http://www.opensource.org/licenses/bsd-license.php 	BSD License
 * @version 		$Id: Delete.object 11 2004-08-31 03:59:33Z wvenable $
+*
+* Font list:
+* http://www.google.com/webfonts#UsePlace:use/Collection:Lora:400,400italic|Exo:900,400
 */
+
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic|Exo:900,400);
 
 body {
 	background-color:	#FAFAFA;
 	color:			black;
 	padding:		0; /* needed for Opera */
-	font-family:		Tahoma,Arial,Helvetica,sans-serif;    
+	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
+	font-family: 		'Lora', serif;
 	font-size:		12px;
 	margin-left:		100px;
 	margin-top:		1em;
@@ -23,8 +29,16 @@ a:link { color: #3366BB; }
 a:visited {	color: #3366BB; }
 a:hover { color: #CD3700; }
 
-h3.head {
-	color: darkOrange;
+#header {
+	font-family: 'Exo', sans-serif;
+}
+
+#ti {
+}
+
+#header h3 {
+	color: 		darkOrange;
+	font-size: 	25px;	
 }
 
 /* To hide things from IE */
@@ -43,9 +57,10 @@ h3.head {
 }
 
 .header h1 {
-	color: #CD3700; <!-- #189337; -->
-	font: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
-	font-size: 32px;
+	color: #CD3700; 
+	/*font: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;*/
+	font-family: 'Exo', sans-serif;
+	font-size: 28px;
 	font-weight: bold;
 	text-align: left;
 	margin: 0;
@@ -53,10 +68,11 @@ h3.head {
 
 
 .header p {
+	font-family: 'Exo', sans-serif;
 	color: #CD3700;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;	
+	/*font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
 	font-size: 90%;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-align: left;
 	padding: 0px 0px 0px 20px;
 	margin: 0;
@@ -64,6 +80,7 @@ h3.head {
 }
 
 .header a {
+	font-family: 'Exo', sans-serif;
 	color: #CD3700 !important;
 	text-decoration: none;
 }
@@ -180,7 +197,7 @@ span.formCheckBoxPair label { float: left; margin-top: 3px;	_margin-top: 4px; co
  ******************************************************************************/
 
 div.topics {
-	font-family:		Georgia,'Times New Roman',Times,serif;
+	/*font-family:		Georgia,'Times New Roman',Times,serif;*/
 	font-weight:		normal;
 	margin-left:		7px; 
 	x-height:		1%;
@@ -212,7 +229,7 @@ div.topics .date {
  ******************************************************************************/
 
 div.posts {
-	font-family:		Georgia,'Times New Roman',Times,serif;
+	/*font-family:		Georgia,'Times New Roman',Times,serif;*/
 	font-weight:		normal;
 	margin-left:		7px;
 
@@ -258,7 +275,8 @@ div.posts div.info {
 
 h2 {
 	font-size:		18px;
-	font-family:		Tahoma,Arial,Helvetica,sans-serif;
+	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
+	font-family: 'Exo', sans-serif;
 	font-weight:		bold;
 	color:			#CD3700;
 	width:				100%;
@@ -266,8 +284,8 @@ h2 {
 }
 
 h3 {
-	font-size:			18px;
-	font-family:		Tahoma,Arial,Helvetica,sans-serif;
+	font-family: 'Exo', sans-serif;
+	font-size:			20px;
 	font-weight:		bold;
 	margin:				0px;
 	padding:			0px 0px 0px 0px;
@@ -276,7 +294,8 @@ h3 {
 
 div.buttons { margin: 1em 0 2px 0; clear: all; }
 div.buttons a {
-	font-family:		Tahoma,Arial,Helvetica,sans-serif;
+	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
+	font-family: 'Exo', sans-serif;
 	font-size:			11px;
 	font-weight:		bold;
 	text-decoration:	none;
