@@ -12,12 +12,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lora:400,400italic|Exo:900,400);
 
 body {
-	background-color:	#FAFAFA;
+	background-color:	#EFEFEF;
 	color:			black;
 	padding:		0; /* needed for Opera */
 	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
 	font-family: 		'Lora', serif;
-	font-size:		12px;
+	font-size:		14px;
 	margin-left:		100px;
 	margin-top:		1em;
 	margin-right:		50px;	
@@ -232,6 +232,8 @@ div.posts {
 	/*font-family:		Georgia,'Times New Roman',Times,serif;*/
 	font-weight:		normal;
 	margin-left:		7px;
+	line-height: 		150%;
+
 
 }
 
@@ -276,37 +278,35 @@ div.posts div.info {
 h2 {
 	font-size:		18px;
 	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
-	font-family: 'Exo', sans-serif;
-	font-weight:		bold;
+	font-family: 		'Exo', sans-serif;
 	color:			#CD3700;
-	width:				100%;
-	margin-top:			0px;
+	width:			100%;
+	margin-top:		0px;
 }
 
 h3 {
-	font-family: 'Exo', sans-serif;
-	font-size:			20px;
-	font-weight:		bold;
-	margin:				0px;
-	padding:			0px 0px 0px 0px;
-	width:				400px;
+	font-family: 		'Exo', sans-serif;
+	font-size:		25px;
+	margin:			0px;
+	padding:		0px 0px 0px 0px;
+	width:			400px;
 }
 
 div.buttons { margin: 1em 0 2px 0; clear: all; }
 div.buttons a {
 	/*font-family:		Tahoma,Arial,Helvetica,sans-serif;*/
 	font-family: 'Exo', sans-serif;
-	font-size:			11px;
+	font-size:		11px;
 	font-weight:		bold;
 	text-decoration:	none;
-	border-top:			1px solid #EEE;
+	border-top:		1px solid #EEE;
 	border-left:		1px solid #EEE;
 	border-right:		1px solid #333;
 	border-bottom:		1px solid #333;
 	background-color:	#DDD;
 	color:			#CD3700;
-	padding:			2px 4px;
-	margin-top:			0ex;	
+	padding:		2px 4px;
+	margin-top:		0ex;	
 	margin-bottom:		0ex;
 	margin-right:		1ex;
 	margin-left:		0ex;
